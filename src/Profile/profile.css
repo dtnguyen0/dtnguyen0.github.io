@@ -1,0 +1,9 @@
+.profile img {
+    border-radius: 100em;
+}
+
+.profile {
+    background-image: url("umichbackground.jpg");
+    background-size: cover;
+    background-position: center;
+}

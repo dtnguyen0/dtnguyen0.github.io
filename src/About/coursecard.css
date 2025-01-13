@@ -1,0 +1,19 @@
+.course-card {
+    background-color: rgb(50, 54, 61);
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    
+}
+
+.course-card p, .course-card h4 {
+    margin: 10px;
+    padding: 6px;
+
+}
+
+.course-title {
+    color: blue;
+}
