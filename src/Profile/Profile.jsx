@@ -8,16 +8,19 @@ function Profile() {
   return(
     <div className="profile">
       <div className="profile-text">
-        <p>Hi, my name is</p>
+        <p >Hi, my name is</p>
         <h1>David Nguyen</h1>
-        <p>and I am studying Computer Science and Electrical Engineering at the University of Michigan!</p>
+        <p>
+          and I am studying Computer Science and Electrical Engineering <br /> 
+          at the University of Michigan!
+        </p>
         <p>Feel free to stay in touch with me! <b><u>davidtn@umich.edu</u></b></p>
-        <img src={pic}></img>
-        <div>
-          <a href="https://www.linkedin.com/in/davidt-nguyen/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-          <a href="https://github.com/dtnguyen0" target="_blank"><FaGithub /></a>
+        <div className="profile-icons">
+          <a className="profile-linkedin" href="https://www.linkedin.com/in/davidt-nguyen/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a className="profile-github" href="https://github.com/dtnguyen0" target="_blank"><FaGithub /></a>
         </div>
       </div>
+      <img src={pic}></img>
     </div>
   );
 }
