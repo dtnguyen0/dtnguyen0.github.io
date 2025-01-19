@@ -1,9 +1,8 @@
 import {FaLinkedin,FaGithub} from "react-icons/fa";
-import './profile.css'
+import "./profile.css"
 
 function Profile() {
-  const pic = "DavidHeadshot.jpg"  
-  const background = "umichbackground.jpg"
+  const pic = "images/DavidProfHeadshot1.jpg"
 
   return(
     <div className="profile">
@@ -11,7 +10,7 @@ function Profile() {
         <p >Hi, my name is</p>
         <h1>David Nguyen</h1>
         <p>
-          and I am studying Computer Science and Electrical Engineering <br /> 
+          I am studying Computer Science and Electrical Engineering <br /> 
           at the University of Michigan!
         </p>
         <p>Feel free to stay in touch with me! <b><u>davidtn@umich.edu</u></b></p>

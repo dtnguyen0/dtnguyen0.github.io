@@ -1,12 +1,11 @@
 import './header.css'
-import {useState} from 'react'
 
 function Header() {
   const pic = "DavidHeadshot.jpg"
   
   return (
     <div>
-      <nav className="navbar">
+      <nav>
         <div className="nav-container">
           <a href="#" className="nav-name">David Nguyen</a>
           <ul className="nav-list">

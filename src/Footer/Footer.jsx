@@ -1,26 +1,23 @@
 import {FaLinkedin,FaGithub} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
+import "./footer.css"
 
 function Footer() {
   const year = new Date().getFullYear();
 
   return(
-    <div className="footer">
+    <div>
       <footer>
-        <div className="footer-contact">
-          <FaLinkedin />
-          <p><b>LinkedIn<u></u></b></p>
-          <p><a href="https://www.linkedin.com/in/davidt-nguyen/" target="_blank">davidt-nguyen</a></p>
-          <FaGithub />
-          <p><b>GitHub</b></p>
-          <p><a href="https://github.com/dtnguyen0" target="_blank">dtnguyen0</a></p>
-          <MdEmail />
-          <p><b>Email</b></p>
-          <p><a href="mailto:davidtn@umich.edu" target="_blank">davidtn@umich.edu</a></p>
-        </div>
-        <div className="">
-          <p>Copyright © {year} <b>David Nguyen</b>. All Rights Reserved</p>
-          <p>Built with <b>ReactJS</b>, <b>CSS</b>. Deployed with <b>GitHub Pages</b></p>
+        <div className="footer-container">
+          <div className="footer-icons">
+            <a className="footer-linkedin" href="https://www.linkedin.com/in/davidt-nguyen/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+            <a className="footer-github" href="https://github.com/dtnguyen0" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+            <a className="footer-email" href="mailto:davidtn@umich.edu" target="_blank" rel="noopener noreferrer"><MdEmail /></a>
+          </div>
+          <div className="footer-copyright">
+            <p>Copyright © {year} David Nguyen. All Rights Reserved</p>
+            <p>Built with React.js, CSS. Deployed with GitHub Pages</p>
+          </div>
         </div>
       </footer>
     </div>
