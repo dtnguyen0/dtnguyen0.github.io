@@ -12,7 +12,7 @@ function Workcard(work) {
     <h4 className="work-title">{work.title}</h4> 
     <p className="work-duration"><i>{work.duration}</i></p>
   </div>
-  <p className="work-position"> | <i>{work.team}</i></p>
+  <p className="work-position">| <i>{work.team}</i></p>
 </div>
 
   );

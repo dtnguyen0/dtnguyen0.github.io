@@ -16,7 +16,7 @@ function Profile() {
         <p>Feel free to stay in touch with me! <b><u>davidtn@umich.edu</u></b></p>
         <div className="profile-icons">
           <a className="profile-linkedin" href="https://www.linkedin.com/in/davidt-nguyen/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-          <a className="profile-github" href="https://github.com/dtnguyen0" target="_blank"><FaGithub /></a>
+          <a className="profile-github" href="https://github.com/dtnguyen0/" target="_blank"><FaGithub /></a>
         </div>
       </div>
       <img src={pic}></img>

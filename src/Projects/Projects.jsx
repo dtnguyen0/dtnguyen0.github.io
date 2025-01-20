@@ -7,14 +7,14 @@ function Projects() {
       <div className="project-container">
         <h2>Projects</h2>
           <div className="project-cards">
-            <Projectcard name="FindBlue" img1="images/reactjsicon.webp" img2="images/nodejsicon.png" img3="images/tsicon.png" img4="images/cssicon.png" link=""
-              summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
-            <Projectcard name="Spotify Analysis" img1="images/pythonicon.png" img2="images/pandasicon.png" img3="images/numpyicon.png" img4="images/matplotlibicon.png" link=""
-              summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
-            <Projectcard name="Portfolio Website" img1="images/reactjsicon.webp" img2="images/jsicon.png" img3="images/cssicon.png" link=""
-              summary="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+            <Projectcard name="FindBlue" img1="images/reactjsicon.webp" img2="images/nodejsicon.png" img3="images/tsicon.png" img4="images/cssicon.png" link="https://github.com/dtnguyen0/"
+              summary="A user-friendly website for University of Michigan to create and discover opportunities for projects, research, and other collaboration resources." />
+            <Projectcard name="Spotify Analysis" img1="images/pythonicon.png" img2="images/pandasicon.png" img3="images/numpyicon.png" img4="images/matplotlibicon.png" link="https://github.com/dtnguyen0/"
+              summary="A Spotify statistics that displays a user’s most listened to artists, genres, songs, era, which allows users to automatically give song recommendations." />
+            <Projectcard name="Portfolio Website" img1="images/reactjsicon.webp" img2="images/jsicon.png" img3="images/cssicon.png" link="https://github.com/dtnguyen0/"
+              summary="The website you are seeing now! :)" />
           </div>
-          </div>
+        </div>
     </div>
         
   );
