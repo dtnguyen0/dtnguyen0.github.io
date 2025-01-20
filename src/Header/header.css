@@ -44,7 +44,6 @@ nav {
 .nav-list {
     display: flex;
     list-style: none;
-    margin: 10;
     padding: 0;
 }
 
@@ -57,7 +56,6 @@ nav {
 .nav-list a{
     color: rgb(211, 217, 221);
     font-weight: bold;
-
 }
 
 .nav-list a:hover {

@@ -15,6 +15,7 @@ function About(){
         <div className="div-bar"></div>
         <div className="education-container">
           <h3>Education</h3>
+          <img className="umich-icon" src="images/umichicon.png"></img>
           <p><i>Bachelor of Science in Engineering in Computer Science, Minor in Electrical Engineering</i></p>
           <div className="courses">
             <Coursecard title="EECS 280" link="https://eecs280.org/" name="C++ Programming and Data Structures"/>
