@@ -21,20 +21,23 @@
 }
 
 .about-text p {
-    font-size: 16px;
+    font-size: 58%;
     line-height: 1.6;
 }
 
-
-
-.about-text h2 {
+.about-container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
     color: rgb(255, 255, 255);
     font-size: 40px;
 }
 
 .education-container h3, .skills-container h3 {
     color: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .div-bar {
@@ -90,29 +93,7 @@
     margin-bottom: 30px;
 }
 
-.skill-tools {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-}
-
-.skill-tools img {
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-}
-
-.skill-tools img:hover {
-    transform: translateY(-3px);
-}
-
 .umich-icon {
     width: 95px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.languages-button, .technologies-button {
-    color: rgb(211, 217, 221);
 }

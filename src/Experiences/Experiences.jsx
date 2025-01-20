@@ -1,11 +1,11 @@
 import Workcard from './Workcard.jsx'
-import "./experience.css"
+import "./experiences.css"
 
-function Experience() {
+function Experiences() {
   return(
-    <div className="experience">
+    <div className="experiences" id="experiences">
       <div className="experience-container">
-        <h2>Experience</h2>
+        <h2>Experiences</h2>
           <div className="experiene-cards">
             <Workcard pic="images/n2klogo.jpg" 
               name="N2K" title="IT Intern" team="Talent Development Team" duration="November 2023 – July 2024" location="Fulton, MD"/>
@@ -19,4 +19,4 @@ function Experience() {
   );
 }
 
-export default Experience
+export default Experiences

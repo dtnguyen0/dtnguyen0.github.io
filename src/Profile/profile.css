@@ -56,7 +56,9 @@
 }
 
 .profile-github, .profile-linkedin {
-    color: rgb(211, 217, 221);}
+    color: rgb(211, 217, 221);
+    transition: all 0.3s ease;
+}
 
 .profile-github:hover, .profile-linkedin:hover {
     color: rgb(255, 255, 255);
