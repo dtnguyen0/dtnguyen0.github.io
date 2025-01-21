@@ -18,12 +18,12 @@ function About(){
           <img className="umich-icon" src="images/umichicon.png" title="GO BLUE!"></img>
           <p><i>Bachelor of Science in Engineering in Computer Science, Minor in Electrical Engineering</i></p>
           <div className="courses">
-            <Coursecard title="EECS 280" link="https://eecs280.org/" name="C++ Programming and Data Structures"/>
-            <Coursecard title="EECS 270" link="https://ece.engin.umich.edu/academics/course-information/course-descriptions/eecs-270/" name="Logic Design"/>
-            <Coursecard title="EECS 203" link="https://ece.engin.umich.edu/academics/course-information/course-descriptions/eecs-203/" name="Discrete Math"/>
-            <Coursecard title="ENGR 100" link="https://adue.engin.umich.edu/engr100_sections/850-robotics/" name="Robotics Mechanisms"/>
-            <Coursecard title="MATH 215" link="https://lsa.umich.edu/math/undergraduates/undergraduate-math-courses/200-level-math-courses.html" name="Vector and Multivariable Calculus"/>
-            <Coursecard title="MATH 214" link="https://lsa.umich.edu/math/undergraduates/undergraduate-math-courses/200-level-math-courses.html" name="Linear Algebra"/>
+            <Coursecard title="EECS 280" link="https://eecs280.org/" name="C++ Programming and Data Structures" rel="noopener noreferrer"/>
+            <Coursecard title="EECS 270" link="https://ece.engin.umich.edu/academics/course-information/course-descriptions/eecs-270/" name="Logic Design" rel="noopener noreferrer" />
+            <Coursecard title="EECS 203" link="https://ece.engin.umich.edu/academics/course-information/course-descriptions/eecs-203/" name="Discrete Math" rel="noopener noreferrer" />
+            <Coursecard title="ENGR 100" link="https://adue.engin.umich.edu/engr100_sections/850-robotics/" name="Robotics Mechanisms" rel="noopener noreferrer"/>
+            <Coursecard title="MATH 215" link="https://lsa.umich.edu/math/undergraduates/undergraduate-math-courses/200-level-math-courses.html" name="Vector and Multivariable Calculus" rel="noopener noreferrer"/>
+            <Coursecard title="MATH 214" link="https://lsa.umich.edu/math/undergraduates/undergraduate-math-courses/200-level-math-courses.html" name="Linear Algebra" rel="noopener noreferrer"/>
           </div>
         </div>
         <div className="div-bar"></div>
