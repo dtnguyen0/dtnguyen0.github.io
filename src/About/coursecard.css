@@ -33,4 +33,5 @@
 .course-title u:hover {
     color: rgb(28, 186, 248);
     text-shadow: 0 0 6px rgba(64, 226, 255, 0.1);
+    font-size: 24px;
 }

@@ -21,6 +21,7 @@
     border-radius: 10px;
     width: 100px;
     height: 100px;
+    transition: all 0.3s ease;
 }
 
 .work-name {
@@ -60,4 +61,9 @@
     font-size: 14px;
     margin: 0;
     padding-left: 2px;
+}
+
+.work-company .work-pic:hover {
+    width: 104px;
+    height: 104px;
 }

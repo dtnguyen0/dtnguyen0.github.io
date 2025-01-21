@@ -5,7 +5,7 @@ function Workcard(work) {
   return(
     <div className="work-card">
   <div className="work-company">
-    <img src={work.pic} className="work-pic"></img>
+    <a href={work.web} target="_blank" rel="noopener noreferrer"><img src={work.pic} className="work-pic"></img></a>
     <h3 className="work-name"><b>{work.name}</b></h3>
   </div>
   <div className="work-content">
