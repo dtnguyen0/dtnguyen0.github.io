@@ -1,8 +1,6 @@
 import './header.css'
 
 function Header() {
-  const pic = "DavidHeadshot.jpg"
-  
   return (
     <div>
       <nav>

@@ -3,6 +3,7 @@ import {MdEmail} from "react-icons/md";
 import "./footer.css"
 
 function Footer() {
+  
   const year = new Date().getFullYear();
 
   return(
