@@ -3,7 +3,7 @@ import {MdEmail} from "react-icons/md";
 import "./footer.css"
 
 function Footer() {
-  
+
   const year = new Date().getFullYear();
 
   return(
@@ -17,7 +17,7 @@ function Footer() {
           </div>
           <div className="footer-copyright">
             <p>Copyright © {year} David Nguyen. All Rights Reserved</p>
-            <p>Built with React.js, CSS. Deployed with GitHub Pages</p>
+            <p>Built with React.js, CSS. Deployed with Vercel</p>
           </div>
         </div>
       </footer>
