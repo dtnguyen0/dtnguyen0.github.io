@@ -12,7 +12,7 @@ function Header() {
             <li><a href="#about">About</a></li>
             <li><a href="#experiences">Experiences</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="David_Nguyen_Resume.pdf" target="_blank" className="resume">Resume</a></li>
+            <li><a href="David_Nguyen_Resume.pdf" target="_blank" className="resume" rel="noopener noreferrer">Resume</a></li>
           </ul>
         </div>
       </nav>
