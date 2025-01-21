@@ -17,7 +17,7 @@ function Footer() {
           </div>
           <div className="footer-copyright">
             <p>Copyright © {year} David Nguyen. All Rights Reserved</p>
-            <p>Built with React.js, CSS. Deployed with Vercel</p>
+            <p>Built with React.js, JavaScript, and CSS. Deployed with Netlify</p>
           </div>
         </div>
       </footer>
