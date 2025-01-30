@@ -21,17 +21,11 @@
     padding: 6px;
 }
 
-.course-card u {
+.course-card h4 {
     font-size: 22px;
     transition: all 0.3s ease;
 }
 
 .course-card p {
     color: rgb(211, 217, 221);
-}
-
-.course-title u:hover {
-    color: rgb(28, 186, 248);
-    text-shadow: 0 0 6px rgba(64, 226, 255, 0.1);
-    font-size: 24px;
 }

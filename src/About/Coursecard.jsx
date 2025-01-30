@@ -3,7 +3,7 @@ import './coursecard.css'
 function Coursecard(course) {
   return(
     <div className="course-card">
-      <h4 className="course-title"><a href={course.link} target="_blank"><u>{course.title}</u></a></h4>
+      <h4 className="course-title">{course.title}</h4>
       <p className="course-name">{course.name}</p>
     </div>
   );

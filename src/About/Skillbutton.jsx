@@ -13,6 +13,7 @@ function Skill(tool) {
       <div className="button-container">
         <button className={`skill-button ${skillOption === "languages" ? "selected" : ""}`} onClick={() => handleSelect("languages")}>Languages</button>
         <button className={`skill-button ${skillOption === "technologies" ? "selected" : ""}`} onClick={() => handleSelect("technologies")}>Technologies</button>
+        <button className={`skill-button ${skillOption === "certifications" ? "selected" : ""}`} onClick={() => handleSelect("certifications")}>Certifications</button>
       </div>
       <div className="skill-images">
         {skillOption === "languages" && (
@@ -37,6 +38,13 @@ function Skill(tool) {
             <img src={tool.t7} title="AWS" />
             <img src={tool.t8} title="Azure" />
             <img src={tool.t9} title="Photoshop" />
+          </>
+        )}
+        {skillOption === "certifications" && (
+          <>
+            <img src={tool.c1} title="AWS Cloud Practitioner" />
+            <img src={tool.c2} title="Azure Fundamentals" />
+            <img src={tool.c3} title="ISC2 Certified in Cybersecuirty" />
           </>
         )}
       </div>
